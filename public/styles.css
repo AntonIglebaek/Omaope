@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(185, 13, 157);
+    padding: 10px;
+}
+
+
+.chatbox{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.user-input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.message{
+    margin-bottom: 10px;
+}
+
+.user-message{
+    font-weight: bold;
+}
+
+.bot-message{
+    font-style: italic;
+    font-weight: normal;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 10px;  /* Lisää tämä */
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#image-files {
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
